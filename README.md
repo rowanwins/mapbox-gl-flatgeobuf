@@ -3,8 +3,14 @@ A little library provides a tiled approach to consuming flatgeobuf files.
 
 **Note** This library is compatible with both mapbox-gl and maplibre-gl.
 
+### Installation
+````
+npm install mapbox-gl-flatgeobuf
+````
 ### Basic Usage
 ````
+  import FlatGeobuf from 'mapbox-gl-flatgeobuf'
+
   const fsSourceId = "fgb-src";
 
   new FlatGeobuf(fsSourceId, map, {

@@ -5,7 +5,7 @@
 <script>
 import { Map } from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { FlatGeobuf } from "../../src/main";
+import FlatGeobuf from "../../src/main";
 
 let map = null;
 export default {

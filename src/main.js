@@ -1,8 +1,7 @@
 import {deserialize} from 'flatgeobuf/lib/cjs/geojson'
 import tilebelt from '@mapbox/tilebelt'
 
-
-export class FlatGeobuf {
+export default class FlatGeobuf {
   constructor (sourceId, map, flatGeobufOptions, geojsonSourceOptions) {
     if (!sourceId || !map || !flatGeobufOptions) throw new Error('Source id, map and url must be supplied as the first three arguments.')
     if (!flatGeobufOptions.url) throw new Error('A url must be supplied as part of the flatGeobufOptions object.')
