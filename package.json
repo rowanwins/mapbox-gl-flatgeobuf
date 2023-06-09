@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-flatgeobuf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A module to ready FlatGeobuf format using tiled requests mapbox-gl or maplibre-gl.",
   "main": "dist/mapbox-gl-flatgeobuf.js",
   "module": "dist/mapbox-gl-flatgeobuf.esm.js",
@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@mapbox/tilebelt": "^1.0.2",
-    "flatgeobuf": "^3.17.3"
+    "flatgeobuf": "^3.25.0"
   },
   "devDependencies": {
     "@ant-design/icons-vue": "^5.1.9",
@@ -30,7 +30,7 @@
     "file-loader": "^6.0.0",
     "json-loader": "^0.5.7",
     "load-json-file": "^5.1.0",
-    "maplibre-gl": "^1.13.0-rc.5",
+    "maplibre-gl": "^3.0.1",
     "rollup": "^1.32.1",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^4.0.0",

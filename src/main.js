@@ -1,4 +1,4 @@
-import {deserialize} from 'flatgeobuf/lib/cjs/geojson'
+import {deserialize} from 'flatgeobuf/dist/flatgeobuf-geojson.min.js'
 import tilebelt from '@mapbox/tilebelt'
 
 export default class FlatGeobuf {
